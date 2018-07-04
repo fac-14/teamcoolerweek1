@@ -1,0 +1,71 @@
+.container {
+    display:grid;
+   
+}
+
+/* Full image container CSS */
+.full-image  {
+    
+}
+
+.full-image .hero {
+background-image: url("./img/hero-jess-watters-unsplash.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+
+}
+
+.full-image .team {
+
+}
+
+/* Sections 1-6 */
+
+#section1 {
+height: 90vh;
+border: 2px solid red;
+background-image: url("./img/hero-jess-watters-unsplash.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+
+}
+
+#section2 {
+    height: 90vh;
+ border: 2px solid red;
+}
+
+#section3 {
+    height: 90vh;
+    border: 2px solid red;
+
+}
+
+#section4 {
+    height: 90vh;
+    border: 2px solid red;
+
+}
+
+#section5 {
+    height: 90vh;
+    border: 2px solid red;
+
+}
+
+#section6 {
+    height: 90vh;
+
+}
+
+
+
+
+
+.halves {
+
+}
+
+.quater {
+
+}
