@@ -132,8 +132,9 @@ nav a:focus {
   height: 90vh;
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
     url("./img/teamphoto.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
