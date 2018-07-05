@@ -250,8 +250,55 @@ img {
   background-image: url("img/joe.jpg");
 }
 
-/* Semantics */ 
+/* Semantics */
 
 .semantic-hide {
     display: none;
+}
+
+/* MOBILE STYLES */
+
+@media(max-width: 767px){
+  .content {
+    width: 100%;
+  }
+
+  nav {
+    display: flex;
+    position: fixed;
+    height: 10%;
+    top: 0;
+    width: 100vw;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+  }
+
+  nav li {
+    margin: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover {
+    border-bottom: 4px gray solid;
+  }
+
+  nav a:focus {
+    border-bottom: 4px gray solid;
+  }
+
+}
+
+@media(max-width: 321px){
+  nav a {
+    font-size: 0.9rem;
+  }
 }
