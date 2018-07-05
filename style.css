@@ -229,3 +229,9 @@ img {
 #joe {
   background-image: url("img/joe.jpg");
 }
+
+/* Semantics */ 
+
+.semantic-hide {
+    display: none;
+}
