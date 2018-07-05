@@ -67,3 +67,5 @@ If we had more time, we definitely would like to focus on:
 And that's all from Team Cooler!
 
 ![](https://media.giphy.com/media/SKGo6OYe24EBG/giphy.gif)
+
+Ready to view our portfolio? Of course you are. Head [here](https://fac-14.github.io/teamcoolerweek1) you keen bean!
