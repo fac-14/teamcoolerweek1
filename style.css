@@ -72,9 +72,28 @@ nav a:focus {
 
 /* Sections 1-6 */
 
+#section1-home header {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: hsl(304, 45%, 27%);
+  width: 65%;
+}
+
+#section1-home header h1 {
+  font-size: 5rem;
+}
+
+#section1-home header h2 {
+  font-family: 'Kalam', cursive;
+  text-align: right;
+  padding-top: 5%;
+  color: hsl(0, 0%, 32%);
+}
+
 #section1-home {
   height: 90vh;
-  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
+  background: /*linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),*/
     url("./img/hero-jess-watters-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,6 +134,15 @@ nav a:focus {
     url("./img/teamphoto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section3-team h2 {
+  color: white;
+  font-size: 5rem;
+  padding-bottom: 10%;
 }
 
 #section4-profiles1 {
@@ -211,6 +239,7 @@ img {
 
 .form h2 {
   text-align: center;
+  color: white;
 }
 
 .form p {
