@@ -79,15 +79,14 @@ nav a:focus {
 }
 
 #right {
-  grid-column-start: 2;
-  display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+    grid-column-start: 2;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
-  width: 100%;
-  height: auto;
-  grid-row-start: 2;
+    width: 100%;
+    height: auto;
 }
 
 #section3-team {
