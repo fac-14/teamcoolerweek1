@@ -38,7 +38,9 @@ background-size:cover;
 #section3 {
     height: 90vh;
     border: 2px solid red;
-
+    background-image: url("./img/teamphoto.jpg");
+    background-repeat:no-repeat;
+    background-size:100%;
 }
 
 #section4 {
@@ -60,13 +62,19 @@ background-size:cover;
     grid-template-columns: 0.3fr 1fr 0.3fr;
 }
 
+/* this is only in here to reduce size of team images to make easier to sort grid layout */
+img {
+    height: 500px;
+}
 
 
 
 
 .halves {
+    border: 2px dotted black;
 
 }
+
 
 .quarter {
 
@@ -107,4 +115,11 @@ background-size:cover;
 img {
     max-width: 300px;
     max-height: 300px;
+
+.team-img {
+    border: 2px dotted black;
+}
+
+.team-text {
+    border: 2px dotted black;
 }
