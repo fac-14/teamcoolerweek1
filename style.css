@@ -114,7 +114,7 @@ nav a:focus {
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
     url("./img/teamphoto.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
 }
 
 #section4-profiles1 {
@@ -251,7 +251,7 @@ img {
   background-image: url("img/joe.jpg");
 }
 
-/* Semantics */ 
+/* Semantics */
 
 .semantic-hide {
     display: none;
