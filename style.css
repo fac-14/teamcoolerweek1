@@ -212,8 +212,6 @@ img {
 
 /* CONTACT FORM STYLING */
 
-/* use grid and frs to align all the form elements*/
-
 .form {
   background: hsl(304, 45%, 27%);
   width: 100%;
@@ -355,7 +353,9 @@ img {
     position: fixed;
     height: 10%;
     top: 0;
+    left: 0;
     width: 100vw;
+    z-index: 2;
   }
 
   nav ul {
@@ -436,6 +436,31 @@ img {
   }
 
 }
+
+@media(max-width: 413px){
+  #section1-home header h1 {
+    font-size: 3rem;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2;
+  }
+
+  #section3-team h2 {
+    font-size: 3rem;
+  }
+
+  #section4-profiles1 h2 {
+    line-height: 1;
+  }
+
+  #section5-profiles2 h2 {
+    line-height: 1;
+  }
+}
+
 
 @media(max-width: 321px){
   nav a {
