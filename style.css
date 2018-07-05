@@ -152,7 +152,7 @@ nav a:focus {
 
 
 #section6-contact {
-    height: 90vh;
+    height: 100vh;
     display: grid;
     grid-template-rows: 0.2fr 1fr 0.2fr;
     grid-template-columns: 0.3fr 1fr 0.3fr;
