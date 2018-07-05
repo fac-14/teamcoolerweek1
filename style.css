@@ -17,6 +17,7 @@ h2 {
 
 p {
   font-size: 1rem;
+  text-align: justify;
 }
 
 li {
@@ -92,6 +93,7 @@ nav a:focus {
   justify-content: center;
   padding: 10%;
   background-color: hsl(27, 100%, 50%);
+  color: hsl(0, 0%, 15%);
 }
 
 #right {
@@ -128,7 +130,25 @@ nav a:focus {
   flex-direction: column;
   justify-content: center;
   padding: 10%;
+  color: white;
 }
+
+#armand-text {
+  background-color: hsl(304, 45%, 27%);
+}
+
+#nathalie-text {
+  background-color: hsl(0, 0%, 32%);
+}
+
+#kate-text {
+  background-color: hsl(27, 100%, 50%);
+}
+
+#joe-text {
+  background-color: hsl(0, 100%, 22%);
+}
+
 
 #section6-contact {
     height: 90vh;
