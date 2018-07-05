@@ -381,6 +381,19 @@ img {
     border-bottom: 4px gray solid;
   }
 
+  #section2-about {
+    height: auto;
+    display: block;
+  }
+
+  #right {
+    display: none;
+  }
+
+  #left {
+    height: 90vh;
+  }
+
   #section4-profiles1 {
     height: auto;
   }
