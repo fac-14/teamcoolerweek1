@@ -119,19 +119,19 @@
                     <header><h2>Contact Us</h2></header>
                     <p>
                         <label for="fullname">Full name:</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Bobson Dugnutt">
+                        <input type="text" id="fullname" name="fullname" placeholder="Bobson Dugnutt" required minlength="5" maxlength="100">
                     </p>
                     <p>
                         <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="bobson.dugnutt@baseballmogul.com">
+                        <input type="email" id="email" name="email" placeholder="bobson.dugnutt@baseballmogul.com" required minlength="10" maxlength="100">
                     </p>
                     <p>
                         <label for="number">Phone number:</label>
-                        <input type="number" id="number" name="number" placeholder="334-555-5555">
+                        <input type="text" id="number" name="number" placeholder="334-555-5555" required pattern="[0-9][-]{12}">
                     </p>
                     <p>
                         <label for="message">Send us a message!</label>
-                        <textarea type="message" id="message" name="message" placeholder="Hey there! Big fan of your work. Let's chat."></textarea>
+                        <textarea type="message" id="message" name="message" placeholder="Hey there! Big fan of your work. Let's chat." maxlength="500"></textarea>
                         
                     </p>
                     <input type="submit" value="submit" id="submit">
