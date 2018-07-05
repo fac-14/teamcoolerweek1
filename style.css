@@ -200,10 +200,6 @@ img {
   height: 100%;
 }
 
-.halves {
-
-}
-
 .quarters {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -316,7 +312,9 @@ img {
   background-position: center center;
 }
 
-.team-text {
+#nathalie-text, #joe-text{
+  grid-column-start: 1;
+  grid-row-start: 2;
 }
 
 #armand {
@@ -325,6 +323,7 @@ img {
 
 #nathalie {
   background-image: url("img/nathalie.jpg");
+  grid-column-start: 2;
 }
 
 #kate {
@@ -334,6 +333,8 @@ img {
 #joe {
   background-image: url("img/joe.jpg");
 }
+
+
 
 /* Semantics */
 
@@ -380,10 +381,52 @@ img {
     border-bottom: 4px gray solid;
   }
 
+  #section4-profiles1 {
+    height: auto;
+  }
+  
+  #section5-profiles2 {
+    height: auto;
+  }
+
+  .quarters {
+    height: 100%;
+    width: 100%;
+    display: block;
+    /*overflow: hidden; */
+  }
+
+  #armand {
+    background-image: url("img/armand.jpg");
+    width: 100%;
+    height: 30vh;
+  }
+  
+  #nathalie {
+    background-image: url("img/nathalie.jpg");
+    grid-column-start: 2;
+    width: 100%;
+    height: 30vh;
+  }
+  
+  #kate {
+    background-image: url("img/kate.jpg");
+    width: 100%;
+    height: 30vh;
+  }
+  
+  #joe {
+    background-image: url("img/joe.jpg");
+    width: 100%;
+    height: 30vh;
+  }
+
 }
 
 @media(max-width: 321px){
   nav a {
     font-size: 0.9rem;
   }
+
+  
 }
