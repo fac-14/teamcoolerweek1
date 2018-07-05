@@ -1,5 +1,5 @@
 .container {
-    
+
 }
 
 .content {
@@ -13,7 +13,7 @@ nav {
     color: white;
     position: fixed;
     width: 15%;
-    right: 0; 
+    right: 0;
     height: 100vh;
     text-align: right;
     display: grid;
@@ -44,37 +44,20 @@ nav a:focus {
     border-bottom: 4px gray solid;
 }
 
-
-
-/* Full image container CSS */
-.full-image  {
-    
-}
-
-.full-image .hero {
-background-image: url("./img/hero-jess-watters-unsplash.jpg");
-background-repeat:no-repeat;
-background-size:cover;
-
-}
-
-.full-image .team {
-
-}
-
 /* Sections 1-6 */
 
 #section1-home {
-height: 90vh;
-border: 2px solid red;
-background: 
+  height: 90vh;
+  border: 2px solid red;
+  background:
     linear-gradient(
-        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45),
         rgba(150, 45, 150, 0.45)
     ),
     url("./img/hero-jess-watters-unsplash.jpg");
-background-repeat:no-repeat;
-background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
 }
 
 #section2-about {
@@ -99,9 +82,9 @@ height: 90vh;
 #section3-team {
     height: 90vh;
     border: 2px solid red;
-    background: 
+    background:
         linear-gradient(
-            rgba(255, 0, 0, 0.45), 
+            rgba(255, 0, 0, 0.45),
             rgba(150, 45, 150, 0.45)
         ),
         url("./img/teamphoto.jpg");
@@ -126,9 +109,9 @@ height: 90vh;
     display: grid;
     grid-template-rows: 0.2fr 1fr 0.2fr;
     grid-template-columns: 0.3fr 1fr 0.3fr;
-    background: 
+    background:
     linear-gradient(
-        rgba(255, 0, 0, 0.45), 
+        rgba(255, 0, 0, 0.45),
         rgba(150, 45, 150, 0.45)
     ),
     url("./img/contactmap.jpg");
