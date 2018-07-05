@@ -101,7 +101,9 @@ background-size:cover;
 
 #section6 {
     height: 90vh;
-
+    display: grid;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-template-columns: 0.3fr 1fr 0.3fr;
 }
 
 /* this is only in here to reduce size of team images to make easier to sort grid layout */
@@ -116,6 +118,47 @@ img {
     border: 2px dotted black;
 
 }
+
+
+.quarter {
+
+}
+
+
+/* CONTACT FORM STYLING */
+
+/* use grid and frs to align all the form elements*/
+
+.form {
+    background: skyblue;
+    width: 100%;
+    height: 100%;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}
+
+#fullname {
+    width: 
+    padding: 
+    margin: 
+
+}
+
+#email {
+
+}
+
+#number {
+
+}
+
+#msg {
+
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
 
 .team-img {
     border: 2px dotted black;
