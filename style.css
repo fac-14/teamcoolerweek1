@@ -3,6 +3,50 @@
    
 }
 
+.content {
+    width: 85%;
+}
+
+/* Navbar styling */
+
+nav {
+    background-color: hsl(347, 79%, 43%);
+    color: white;
+    position: fixed;
+    width: 15%;
+    right: 0; 
+    height: 100vh;
+    text-align: right;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr;
+    font-size: 1.1rem;
+}
+
+nav ul {
+    grid-column-start: 2;
+    margin: auto;
+    width: 100%;
+}
+
+nav li {
+    margin: 10%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 4px gray solid;
+}
+
+nav a:focus {
+    border-bottom: 4px gray solid;
+}
+
+
+
 /* Full image container CSS */
 .full-image  {
     
