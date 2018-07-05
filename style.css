@@ -86,14 +86,13 @@ height: 90vh;
 
 #right {
     grid-column-start: 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
     width: 100%;
     height: auto;
-    grid-row-start: 2;
 }
 
 #section3-team {
