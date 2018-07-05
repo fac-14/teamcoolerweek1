@@ -1,5 +1,26 @@
+/* GENERAL STYLING */
+
 * {
   font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 3;
+}
+
+p {
+  font-size: 1rem;
+}
+
+li {
+  font-size: 1.5rem;
 }
 
 .container {
@@ -12,7 +33,7 @@
 /* Navbar styling */
 
 nav {
-  background-color: hsl(347, 79%, 43%);
+  background-color: hsl(0, 100%, 22%);
   color: white;
   position: fixed;
   width: 15%;
@@ -64,7 +85,6 @@ nav a:focus {
 
 #section1-home {
   height: 90vh;
-  border: 2px solid red;
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
     url("./img/hero-jess-watters-unsplash.jpg");
   background-repeat: no-repeat;
@@ -73,15 +93,24 @@ nav a:focus {
 
 #section2-about {
   height: 90vh;
-  border: 2px solid red;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+#left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
+  background-color: hsl(27, 100%, 50%);
 }
 
 #right {
     grid-column-start: 2;
     display: flex;
     align-items: center;
+    background-color: hsl(0, 0%, 32%);
 }
 
 #logo {
@@ -91,7 +120,6 @@ nav a:focus {
 
 #section3-team {
   height: 90vh;
-  border: 2px solid red;
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
     url("./img/teamphoto.jpg");
   background-repeat: no-repeat;
@@ -100,12 +128,18 @@ nav a:focus {
 
 #section4-profiles1 {
   height: 90vh;
-  border: 2px solid red;
 }
 
 #section5-profiles2 {
   height: 90vh;
-  border: 2px solid red;
+}
+
+.team-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10%;
 }
 
 #section6-contact {
@@ -126,7 +160,7 @@ img {
 }
 
 .halves {
-  border: 2px dotted black;
+
 }
 
 .quarters {
@@ -180,14 +214,12 @@ img {
 }
 
 .background-image {
-  border: 2px dotted black;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .team-text {
-  border: 2px dotted black;
 }
 
 #armand {
