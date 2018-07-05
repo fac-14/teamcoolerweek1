@@ -65,7 +65,7 @@ background-size:100%;
 
 /* Sections 1-6 */
 
-#section1 {
+#section1-home {
 height: 90vh;
 border: 2px solid red;
 background-image: url("./img/hero-jess-watters-unsplash.jpg");
@@ -74,12 +74,12 @@ background-size:cover;
 
 }
 
-#section2 {
+#section2-about {
     height: 90vh;
  border: 2px solid red;
 }
 
-#section3 {
+#section3-team {
     height: 90vh;
     border: 2px solid red;
     background-image: url("./img/teamphoto.jpg");
@@ -87,19 +87,19 @@ background-size:cover;
     background-size:100%;
 }
 
-#section4 {
+#section4-profiles1 {
     height: 90vh;
     border: 2px solid red;
 
 }
 
-#section5 {
+#section5-profiles2 {
     height: 90vh;
     border: 2px solid red;
 
 }
 
-#section6 {
+#section6-contact {
     height: 90vh;
     display: grid;
     grid-template-rows: 0.2fr 1fr 0.2fr;
@@ -138,9 +138,8 @@ img {
 }
 
 #fullname {
-    width: 
-    padding: 
-    margin: 
+    width: ;
+    padding: ;
 
 }
 
