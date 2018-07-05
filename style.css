@@ -405,3 +405,19 @@ img {
     font-size: 0.9rem;
   }
 }
+
+#skip {
+
+  background-image: url(/img/down.svg);
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background-size: 100px 82px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+    
+    
+
+}
