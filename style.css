@@ -223,7 +223,7 @@ img {
   border-radius: 10px;
   border: 2px hsl(43, 100%, 52%) solid;
   height: 1.5rem;
-  padding: 10px;
+  padding: .9rem;
 }
 
 .form textarea {
@@ -231,6 +231,7 @@ img {
   border-radius: 10px;
   border: 2px hsl(43, 100%, 52%) solid;
   height: 5rem;
+  padding: .9rem;
 }
 
 .form label {
@@ -266,6 +267,17 @@ img {
   background-color: hsl(43, 100%, 52%);
   font-weight: 700;
   font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: -0.2rem 0.2rem gray;
+}
+
+#submit:active {
+  background: hsl(43, 92%, 36%);
+  box-shadow: 0 0.05rem darkgray;
+}
+
+#submit:focus {
+  outline: 2px hsl(43, 92%, 36%) solid;
 }
 
 .background-image {
