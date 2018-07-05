@@ -1,9 +1,9 @@
-.container {
-
+* {
+  font-family: "Roboto", sans-serif;
 }
 
 .content {
-    width: 85%;
+  width: 85%;
 }
 
 /* Navbar styling */
@@ -22,26 +22,26 @@ nav {
 }
 
 nav ul {
-    grid-column-start: 2;
-    margin: auto;
-    width: 100%;
+  grid-column-start: 2;
+  margin: auto;
+  width: 100%;
 }
 
 nav li {
-    margin: 10%;
+  margin: 10%;
 }
 
 nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
-    border-bottom: 4px gray solid;
+  border-bottom: 4px gray solid;
 }
 
 nav a:focus {
-    border-bottom: 4px gray solid;
+  border-bottom: 4px gray solid;
 }
 
 /* Sections 1-6 */
@@ -61,22 +61,21 @@ nav a:focus {
 }
 
 #section2-about {
-height: 90vh;
- border: 2px solid red;
- display: grid;
- grid-template-columns: 1fr 1fr;
+  height: 90vh;
+  border: 2px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 #right {
     grid-column-start: 2;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
     width: 100%;
     height: auto;
-    grid-row-start: 2;
 }
 
 #section3-team {
@@ -93,15 +92,13 @@ height: 90vh;
 }
 
 #section4-profiles1 {
-    height: 90vh;
-    border: 2px solid red;
-
+  height: 90vh;
+  border: 2px solid red;
 }
 
 #section5-profiles2 {
-    height: 90vh;
-    border: 2px solid red;
-
+  height: 90vh;
+  border: 2px solid red;
 }
 
 #section6-contact {
@@ -115,103 +112,93 @@ height: 90vh;
         rgba(150, 45, 150, 0.45)
     ),
     url("./img/contactmap.jpg");
-background-repeat:no-repeat;
-background-size:cover;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* this is only in here to reduce size of team images to make easier to sort grid layout */
 img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
-
-
-
 
 .halves {
-    border: 2px dotted black;
-
+  border: 2px dotted black;
 }
-
 
 .quarters {
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
 }
-
 
 /* CONTACT FORM STYLING */
 
 /* use grid and frs to align all the form elements*/
 
 .form {
-    background: rgb(137, 137, 137);
-    width: 100%;
-    height: 100%;
-    grid-row-start: 2;
-    grid-column-start: 2;
-    box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
-    border-radius: 2%;
-    padding: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+  background: rgb(137, 137, 137);
+  width: 100%;
+  height: 100%;
+  grid-row-start: 2;
+  grid-column-start: 2;
+  box-shadow: 0 0 20px 0 rgba(72, 94, 116, 0.7);
+  border-radius: 2%;
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
 .form label {
-    display: block;
+  display: block;
 }
 
 .form p {
-    margin: 0;
+  margin: 0;
 }
 
 #email {
-
 }
 
 #number {
-
 }
 
 #msg {
-
 }
 
-
 #submit {
-    display: block;
-    grid-column-start: 0;
-    grid-column-end: 2;
+  display: block;
+  grid-column-start: 0;
+  grid-column-end: 2;
 }
 
 .background-image {
-    border: 2px dotted black;
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position: center center;
+  border: 2px dotted black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .team-text {
-    border: 2px dotted black;
+  border: 2px dotted black;
 }
 
 #armand {
-    background-image: url("img/armand.jpg");
+  background-image: url("img/armand.jpg");
 }
 
 #nathalie {
-    background-image: url("img/nathalie.jpg");
+  background-image: url("img/nathalie.jpg");
 }
 
 #kate {
-    background-image: url("img/kate.jpg");
+  background-image: url("img/kate.jpg");
 }
 
 #joe {
-    background-image: url("img/joe.jpg");
+  background-image: url("img/joe.jpg");
 }
