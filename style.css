@@ -1,6 +1,5 @@
 .container {
-    display:grid;
-   
+    
 }
 
 .content {
@@ -55,7 +54,7 @@ nav a:focus {
 .full-image .hero {
 background-image: url("./img/hero-jess-watters-unsplash.jpg");
 background-repeat:no-repeat;
-background-size:100%;
+background-size:cover;
 
 }
 
@@ -75,16 +74,28 @@ background-size:cover;
 }
 
 #section2-about {
-    height: 90vh;
+height: 90vh;
  border: 2px solid red;
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+
+#right {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#logo {
+    width: 100%;
+    height: auto;
+    grid-row-start: 2;
 }
 
 #section3-team {
     height: 90vh;
     border: 2px solid red;
     background-image: url("./img/teamphoto.jpg");
-    background-repeat:no-repeat;
-    background-size:100%;
 }
 
 #section4-profiles1 {
@@ -108,7 +119,8 @@ background-size:cover;
 
 /* this is only in here to reduce size of team images to make easier to sort grid layout */
 img {
-    height: 500px;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -120,8 +132,13 @@ img {
 }
 
 
-.quarter {
-
+.quarters {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 
@@ -137,12 +154,6 @@ img {
     grid-column-start: 2;
 }
 
-#fullname {
-    width: ;
-    padding: ;
-
-}
-
 #email {
 
 }
@@ -155,14 +166,30 @@ img {
 
 }
 
-img {
-    max-width: 300px;
-    max-height: 300px;
 
-.team-img {
+.background-image {
     border: 2px dotted black;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center center;
 }
 
 .team-text {
     border: 2px dotted black;
+}
+
+#armand {
+    background-image: url("img/armand.jpg");
+}
+
+#nathalie {
+    background-image: url("img/nathalie.jpg");
+}
+
+#kate {
+    background-image: url("img/kate.jpg");
+}
+
+#joe {
+    background-image: url("img/joe.jpg");
 }
