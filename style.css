@@ -26,6 +26,7 @@ li {
 }
 
 .container {
+  height: 90vh;
 }
 
 .content {
@@ -92,7 +93,6 @@ nav a:focus {
 }
 
 #section1-home {
-  height: 90vh;
   background: /*linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),*/
     url("./img/hero-jess-watters-unsplash.jpg");
   background-repeat: no-repeat;
@@ -101,7 +101,6 @@ nav a:focus {
 }
 
 #section2-about {
-  height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -129,7 +128,6 @@ nav a:focus {
 }
 
 #section3-team {
-  height: 90vh;
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
     url("./img/teamphoto.jpg");
     background-repeat: no-repeat;
@@ -144,14 +142,6 @@ nav a:focus {
   color: white;
   font-size: 5rem;
   padding-bottom: 10%;
-}
-
-#section4-profiles1 {
-  height: 90vh;
-}
-
-#section5-profiles2 {
-  height: 90vh;
 }
 
 .team-text {
@@ -205,8 +195,6 @@ img {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  height: 100%;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -403,10 +391,6 @@ img {
     display: none;
   }
 
-  #left {
-    height: 90vh;
-  }
-
   #section4-profiles1 {
     height: auto;
   }
@@ -419,7 +403,6 @@ img {
     height: 100%;
     width: 100%;
     display: block;
-    /*overflow: hidden; */
   }
 
   #armand {
