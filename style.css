@@ -2,6 +2,7 @@
 
 *, html {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 h1 {
@@ -221,7 +222,7 @@ img {
   border-radius: 2%;
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: .7fr .7fr .7fr .7fr 1.9fr 1fr 5%;
+  grid-template-rows: .7fr .7fr .7fr .7fr 1.6fr .7fr;
   grid-gap: 10px;
   margin: auto;
   color: white;
@@ -240,7 +241,6 @@ img {
 .form p {
   grid-column-start: 2;
   text-align: center;
-  line-height: 1.6;
 }
 
 .form input {
@@ -261,6 +261,7 @@ img {
 
 .form label {
   display: block;
+  margin: .4rem;
 }
 
 
@@ -355,7 +356,7 @@ img {
 
 }
 
-@media(max-width: 767px){
+@media(max-width: 650px){
   .content {
     width: 100%;
   }
@@ -447,9 +448,15 @@ img {
     height: 30vh;
   }
 
+  .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
 }
 
-@media(max-width: 413px){
+@media(max-width: 415px){
 
   #section3-team h2 {
     font-size: 3rem;
@@ -489,6 +496,15 @@ img {
   color: white;
   padding: 3rem 0 3rem 0;
   background: rgba(100, 38, 96, 0.75);
+}
+
+.form input {
+  width: 90%;
+  height: 1rem;
+}
+
+.form textarea {
+  width: 90%;
 }
 
 
