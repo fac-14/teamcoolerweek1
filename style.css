@@ -12,8 +12,14 @@ h1 {
 }
 
 h2 {
+  font-weight: 700;
+}
+
+h3 {
   font-size: 2rem;
   font-weight: 700;
+  line-height: 3;
+  text-align: center;
 }
 
 p {
@@ -45,7 +51,6 @@ nav {
   text-align: right;
   display: grid;
   grid-template-columns: 0.1fr 1fr 0.1fr;
-  font-size: 1.1rem;
 }
 
 nav ul {
@@ -61,6 +66,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: white;
+  /* font-size: 1.1rem; */
 }
 
 nav a:hover {
@@ -81,15 +87,17 @@ nav a:focus {
   width: 65%;
 }
 
-#section1-home header h1 {
+.title {
   font-size: 5rem;
 }
 
-#section1-home header h2 {
+h2.tagline {
   font-family: 'Kalam', cursive;
   text-align: right;
   padding-top: 5%;
   color: hsl(0, 0%, 32%);
+  font-size: 2rem;
+  line-height: 3;
 }
 
 #section1-home {
@@ -140,7 +148,7 @@ nav a:focus {
 
 #section3-team h2 {
   color: white;
-  font-size: 5rem;
+  /* font-size: 5rem; */
   padding-bottom: 10%;
 }
 
@@ -219,11 +227,6 @@ img {
 
 .form header {
   grid-column-start: 2;
-}
-
-.form h2 {
-  text-align: center;
-  color: white;
 }
 
 .form p {
@@ -514,7 +517,7 @@ img {
   position: fixed;
   bottom: 0;
   left: 0;
-    
-    
+
+
 
 } */
