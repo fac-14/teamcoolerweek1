@@ -8,137 +8,133 @@
     <title>KANJ Design</title>
     <link rel="stylesheet" href="reset.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,900,900i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,900,900i|Kalam" rel="stylesheet">
 </head>
 
 <body>
     <header class="semantic-hide">
         <h1>KANJ Web Agency</h1>
     </header>
-        <nav class="navbar">
-            <h2 class="semantic-hide">Menu</h2>
-            <ul>
-                <li>
-                    <a href="#section1-home">Home</a>
-                </li>
-                <li>
-                    <a href="#section2-about">About</a>
-                </li>
-                <li>
-                    <a href="#section3-team">Team</a>
-                </li>
-                <li>
-                    <a href="#section6-contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-        <main class="content" >
-            <h2 class="semantic-hide">Introduction</h2>
-            <section id="section1-home" class="background-image container">
-                  <header>
-                    <h1 class="title">Welcome to KANJ</h1>
-                    <h2>Here to extinguish your design issues</h2>
-                  </header>
-            </section>
-            <section id="section2-about" class="container">
-                <h2 class="semantic-hide">About Section</h2>
-                <article id="left" class="halves">
-                    <h2>About Us</h2>
-                    <p id="about-text">
-                        We're a young, upstart bunch of coders who are here to apply Nielsen's design principles to your website. <br>
+    <nav class="navbar">
+        <h2 class="semantic-hide">Menu</h2>
+        <ul>
+            <li>
+                <a href="#section1-home">Home</a>
+            </li>
+            <li>
+                <a href="#section2-about">About</a>
+            </li>
+            <li>
+                <a href="#section3-team">Team</a>
+            </li>
+            <li>
+                <a href="#section6-contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main class="content">
+        <h2 class="semantic-hide">Introduction</h2>
+        <section id="section1-home" class="background-image">
+            <header>
+                <h1 class="title">Welcome to KANJ</h1>
+                <h2>Here to extinguish your design issues</h2>
+            </header>
+        </section>
+        <section id="section2-about">
+            <h2 class="semantic-hide">About Section</h2>
+            <article id="left" class="halves">
+                <h2>About Us</h2>
+                <p id="about-text">
+                    We're a young, upstart bunch of coders who are here to apply Nielsen's design principles to your website.
+                    <br> Carefully selected and brought together by an all-seeing algorithm, our diverse backgrounds are perfectly
+                    complemented to ensure you have specialists for all stages of your project.
+                    <br> Offering full-stack, disruptive solutions to everyday design problems, we are committed to bringing
+                    the latest in Silicon Roundabout thinking to your project.
+                    <br> We would love to hear about you and see how we can help bring your ideas to life.
+                </p>
+            </article>
+            <article id="right" class="halves">
+                <h2 class="semantic-hide">Logo</h2>
+                <img src="img/log-sq-orange-trans.png" alt="kanj-logo" id="logo">
+            </article>
+        </section>
+        <section id="section3-team" class="background-image">
+            <h2>Meet the team</h2>
+        </section>
+        <section id="section4-profiles1" class="quarters">
+            <h2 class="semantic-hide">Team Photos </h2>
+            <article class="background-image" id="armand" role="img" aria-label="Photo of team member Armand">
+                <h2 class="semantic-hide">Armand Photo</h2>
+            </article>
+            <article class="team-text" id="armand-text">
+                <h2>About Armand</h2>
+                <p>Armand is our HTML5 and Javascript expert who has built at least 3.2 websites in the past week alone. He
+                    loves to cry in desolate corners around Finsbury. He also has lots of opinions about the Internet speed
+                    in Western Europe.
+                </p>
+            </article>
+            <article class="background-image" id="nathalie" role="img" aria-label="Photo of team member Nathalie">
+                <h2 class="semantic-hide">Nathalie Photo</h2>
+            </article>
+            <article class="team-text" id="nathalie-text">
+                <h2>About Nathalie</h2>
+                <p>Nathalie has over 20 years of flexbox experience, making her one of the best CSS developers in London today.
+                    She loves football and desk fans during the short London summers. She can be found having fika all the
+                    time.
+                </p>
+            </article>
+        </section>
+        <section id="section5-profiles2" class="quarters">
+            <h2 class="semantic-hide">Team Photos</h2>
+            <article class="background-image" id="kate" role="img" aria-label="Photo of team member Kate">
+                <h2 class="semantic-hide"> Kate Photo</h2>
+            </article>
+            <article class="team-text" id="kate-text">
+                <h2>About Kate</h2>
+                <p>Kate brings her knowledge of coffee brewing techniques, obscure dog breeds, and developing for accessibility
+                    to the team. She loves long walks by the Thames, cycling on A roads, and overcaffeinating.
+                </p>
+            </article>
+            <article class="background-image" id="joe" role="img" aria-label="Photo of team member Joe">
+                <h2 class="semantic-hide">Joe Photo</h2>
+            </article>
+            <article class="team-text" id="joe-text">
+                <h2>About Joe</h2>
+                <p>Joe, an "underground" musician and children's book author, brings a keen eye for design to the team. From
+                    making logos to choosing sweet colour palettes, he keeps us looking fly all the time. He lives in East
+                    London with his chincilla Chinchillo and French bulldog Nancy.
+                </p>
+            </article>
+        </section>
+        <section id="section6-contact">
+            <h2 class="semantic-hide">Inquiry Form</h2>
+            <form class="form">
+                <header>
+                    <h2>Contact Us</h2>
+                </header>
+                <p>
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Bobson Dugnutt" minlength="5" maxlength="100" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" id="email" name="email" placeholder="bobson.dugnutt@baseballmogul.com"
+                        minlength="10" maxlength="100" required>
+                </p>
+                <p>
+                    <label for="number">Phone number:</label>
+                    <input type="tel" id="number" name="number" placeholder="334-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                </p>
+                <p>
+                    <label for="message">Send us a message!</label>
+                    <textarea type="message" id="message" name="message" placeholder="Hey there! Big fan of your work. Let's chat." maxlength="500"></textarea>
 
-                        Carefully selected and brought together by an all-seeing algorithm, our diverse backgrounds are perfectly
-                         complemented to ensure you have specialists for all stages of your project. <br>
-
-                        Offering full-stack, disruptive solutions to everyday design problems, we are committed
-                         to bringing the latest in Silicon Roundabout thinking to your project. <br>
-
-                        We would love to hear about you and see how we can help bring your ideas to life.
-                    </p>
-                </article>
-                <article id="right" class="halves">
-                    <h2 class="semantic-hide">Logo</h2>
-                    <img src="img/log-sq-orange-trans.png" alt="kanj-logo" id="logo">
-                </article>
-            </section>
-            <section id="section3-team" class="background-image container">
-                <h2>Meet the team</h2>
-            </section>
-            <section id="section4-profiles1" class="quarters container">
-                <h2 class="semantic-hide">Team Photos </h2>
-                <article class="background-image" id="armand">
-                    <h2 class="semantic-hide">Armand Photo</h2>
-                <!-- <img src="img/armand.jpg" alt="charming-man"> -->
-                </article>
-                <article class="team-text" id="armand-text">
-                    <h2>About Armand</h2>
-                    <p>Armand is our HTML5 and Javascript expert who has built at least 3.2 websites
-                        in the past week alone.
-                    </p>
-                </article>
-                <article class="background-image" id="nathalie">
-                        <h2 class="semantic-hide">Nathalie Photo</h2>
-                       <!--  <img src="img/nathalie.jpg" alt="smiling-nat"> -->
-                    </article>
-                <article class="team-text" id="nathalie-text">
-                    <h2>About Nathalie</h2>
-                    <p>Nathalie has over 20 years of flexbox experience, making her one of the best CSS
-                        developers in London today. She loves football and desk fans during the short
-                        London summers. She can be found having fika all the time.
-                    </p>
-                </article>
-            </section>
-            <section id="section5-profiles2" class="quarters container">
-                <h2 class="semantic-hide">Team Photos</h2>
-                <article class="background-image" id="kate">
-                    <h2 class="semantic-hide"> Kate Photo</h2>
-                  <!--   <img src="img/kate.jpg" alt="cool-kats"> -->
-                </article>
-                <article class="team-text" id="kate-text">
-                    <h2>About Kate</h2>
-                    <p>Kate brings her knowledge of coffee brewing techniques, obscure dog breeds, and
-                        developing for accessibility to the team. She loves long walks by the Thames,
-                         cycling on A roads, and overcaffeinating.
-                    </p>
-                </article>
-                <article class="background-image" id="joe">
-                        <h2 class="semantic-hide">Joe Photo</h2>
-                      <!--  <img src="img/joe.jpg" alt="happy-joe"> -->
-                </article>
-                <article class="team-text" id="joe-text">
-                    <h2>About Joe</h2>
-                    <p>Joe, a former musician and children's book author, brings a keen eye for design to the team.
-                         From making logos to choosing sweet colour palettes, he keeps us looking fly all the time.
-                          He lives in East London with his chincilla Chinchillo and French bulldog Nancy.
-                    </p>
-                </article>
-            </section>
-            <section id="section6-contact" class="container">
-                <h2 class="semantic-hide">Inquiry Form</h2>
-                <form class="form">
-                    <header><h2>Contact Us</h2></header>
-                    <p>
-                        <label for="fullname">Full name:</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Bobson Dugnutt" required minlength="5" maxlength="100">
-                    </p>
-                    <p>
-                        <label for="email">Email:</label>
-                        <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" id="email" name="email" placeholder="bobson.dugnutt@baseballmogul.com" required minlength="10" maxlength="100">
-                    </p>
-                    <p>
-                        <label for="number">Phone number:</label>
-                        <input type="text" id="number" name="number" placeholder="334-555-5555" required pattern="[0-9][-]{12}">
-                    </p>
-                    <p>
-                        <label for="message">Send us a message!</label>
-                        <textarea type="message" id="message" name="message" placeholder="Hey there! Big fan of your work. Let's chat." maxlength="500"></textarea>
-
-                    </p>
-                    <input type="submit" value="submit" id="submit">
-                </form>
-            </section>
-        </main>
+                </p>
+                <input type="submit" value="submit" id="submit">
+            </form>
+        </section>
+    </main>
 
 </body>
+
 </html>
