@@ -2,6 +2,7 @@
 
 *, html {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 h1 {
@@ -31,6 +32,7 @@ li {
 }
 
 .container {
+  height: 90vh;
 }
 
 .content {
@@ -99,15 +101,14 @@ h2.tagline {
 }
 
 #section1-home {
-  height: 90vh;
-  background-image: url("./img/hero-jess-watters-unsplash.jpg");
+  background: /*linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),*/
+    url("./img/hero-jess-watters-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
 }
 
 #section2-about {
-  height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -135,7 +136,6 @@ h2.tagline {
 }
 
 #section3-team {
-  height: 90vh;
   background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
     url("./img/teamphoto.jpg");
     background-repeat: no-repeat;
@@ -150,14 +150,6 @@ h2.tagline {
   color: white;
   /* font-size: 5rem; */
   padding-bottom: 10%;
-}
-
-#section4-profiles1 {
-  height: 90vh;
-}
-
-#section5-profiles2 {
-  height: 90vh;
 }
 
 .team-text {
@@ -190,7 +182,7 @@ h2.tagline {
     height: 110vh;
     display: grid;
     grid-template-rows: 0.2fr 1fr 0.2fr;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
     background:
     linear-gradient(
         rgba(255, 0, 0, 0.45),
@@ -211,8 +203,6 @@ img {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  height: 100%;
-  width: 100%;
   overflow: hidden;
 }
 
@@ -228,10 +218,11 @@ img {
   border-radius: 2%;
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: .7fr .7fr .7fr .7fr 1.9fr 1fr 5%;
+  grid-template-rows: .7fr .7fr .7fr .7fr 1.6fr .7fr;
   grid-gap: 10px;
   margin: auto;
   color: white;
+  padding: 3rem 0 3rem 0;
 }
 
 .form header {
@@ -241,7 +232,6 @@ img {
 .form p {
   grid-column-start: 2;
   text-align: center;
-  line-height: 1.6;
 }
 
 .form input {
@@ -262,6 +252,7 @@ img {
 
 .form label {
   display: block;
+  margin: .4rem;
 }
 
 
@@ -356,7 +347,7 @@ img {
 
 }
 
-@media(max-width: 767px){
+@media(max-width: 650px){
   .content {
     width: 100%;
   }
@@ -404,10 +395,6 @@ img {
     display: none;
   }
 
-  #left {
-    height: 90vh;
-  }
-
   #section4-profiles1 {
     height: auto;
   }
@@ -420,7 +407,6 @@ img {
     height: 100%;
     width: 100%;
     display: block;
-    /*overflow: hidden; */
   }
 
   #armand {
@@ -448,9 +434,15 @@ img {
     height: 30vh;
   }
 
+  .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
 }
 
-@media(max-width: 413px){
+@media(max-width: 415px){
 
   #section3-team h2 {
     font-size: 3rem;
@@ -463,6 +455,46 @@ img {
   #section5-profiles2 h2 {
     line-height: 1;
   }
+
+  #section6-contact {
+    height: auto;
+    display: block;
+    background:
+    linear-gradient(
+        rgba(255, 0, 0, 0.45),
+        rgba(150, 45, 150, 0.45)
+    ),
+    url("./img/contactmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  border-radius: 0;
+  display: grid;
+  grid-template-columns: 0.05fr 1fr 0.05fr;
+  grid-template-rows: .7fr .7fr .7fr .7fr 1.9fr 1fr 5%;
+  grid-gap: 10px;
+  margin: auto;
+  color: white;
+  padding: 3rem 0 3rem 0;
+  background: rgba(100, 38, 96, 0.75);
+}
+
+.form input {
+  width: 90%;
+  height: 1rem;
+}
+
+.form textarea {
+  width: 90%;
+}
+
+
+
 }
 
 
@@ -472,3 +504,20 @@ img {
   }
 
 }
+
+/*
+#skip {
+
+  background-image: url(/img/down.svg);
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background-size: 100px 82px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+
+
+} */
