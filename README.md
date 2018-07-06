@@ -52,11 +52,31 @@ Unfortunately, we wrestled for a long time in the afternoon with creating a mobi
 
 In the end, we finished a mobile layout in time and spent the last hour or so adding a few last bits such as form validation with HTML5, cleaning up our semantic HTML for screen readers, and tweaking some responsive breakpoints.
 
+## Code Review and Addressing Issues
+
+### Code review
+
+Issues raised by our teammates included: 
+
+* Cleaning up our HTML and CSS to remove empty classes, commented out bits, unused images from the img folder, etc.
+* Cleaning up our CSS to make better use of classes for repeated styling, as opposed to ids
+* Making our form look better on smaller screens
+* Fixing HTML validation on our form so that it allowed the form to be submitted
+* Fixing text styling
+
+### Issues not fixed and further research
+
+* Clarifying use of semantic HTML (articles, divs, etc)
+* Landscape mode on mobile
+* Further form validation using regex in `pattern` tags
+
 ## Lessons and stretch goals
 
 Perhaps our biggest lesson was in realising that we should not have left mobile to late to work on. In trying to take a desktop layout and switch it to mobile, we found we were creating a lot of 'workarounds' rather than easily taking our HTML and styling it up differently.
 
 ![](https://media.giphy.com/media/26FPy3QZQqGtDcrja/giphy.gif)
+
+Another lessons we learned on code review day was... well, we spent 40 minutes trying to undo a commit/merge from the command line, and I still don't think we're sure.
 
 If we had more time, we definitely would like to focus on:
 
