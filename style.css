@@ -2,6 +2,7 @@
 
 *, html {
   font-family: "Roboto", sans-serif;
+  font-size: 1rem;
 }
 
 h1 {
@@ -13,7 +14,6 @@ h1 {
 h2 {
   font-size: 2rem;
   font-weight: 700;
-  line-height: 3;
 }
 
 p {
@@ -174,7 +174,7 @@ nav a:focus {
     height: 110vh;
     display: grid;
     grid-template-rows: 0.2fr 1fr 0.2fr;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
+    grid-template-columns: 0.2fr 1fr 0.2fr;
     background:
     linear-gradient(
         rgba(255, 0, 0, 0.45),
@@ -210,10 +210,11 @@ img {
   border-radius: 2%;
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: .7fr .7fr .7fr .7fr 1.9fr 1fr 5%;
+  grid-template-rows: .7fr .7fr .7fr .7fr 1.6fr .7fr;
   grid-gap: 10px;
   margin: auto;
   color: white;
+  padding: 3rem 0 3rem 0;
 }
 
 .form header {
@@ -228,7 +229,6 @@ img {
 .form p {
   grid-column-start: 2;
   text-align: center;
-  line-height: 1.6;
 }
 
 .form input {
@@ -249,6 +249,7 @@ img {
 
 .form label {
   display: block;
+  margin: .4rem;
 }
 
 
@@ -343,7 +344,7 @@ img {
 
 }
 
-@media(max-width: 767px){
+@media(max-width: 650px){
   .content {
     width: 100%;
   }
@@ -430,9 +431,15 @@ img {
     height: 30vh;
   }
 
+  .background-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+
 }
 
-@media(max-width: 413px){
+@media(max-width: 415px){
 
   #section3-team h2 {
     font-size: 3rem;
@@ -445,6 +452,46 @@ img {
   #section5-profiles2 h2 {
     line-height: 1;
   }
+
+  #section6-contact {
+    height: auto;
+    display: block;
+    background:
+    linear-gradient(
+        rgba(255, 0, 0, 0.45),
+        rgba(150, 45, 150, 0.45)
+    ),
+    url("./img/contactmap.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form {
+  width: 100%;
+  height: 100%;
+  box-shadow: none;
+  border-radius: 0;
+  display: grid;
+  grid-template-columns: 0.05fr 1fr 0.05fr;
+  grid-template-rows: .7fr .7fr .7fr .7fr 1.9fr 1fr 5%;
+  grid-gap: 10px;
+  margin: auto;
+  color: white;
+  padding: 3rem 0 3rem 0;
+  background: rgba(100, 38, 96, 0.75);
+}
+
+.form input {
+  width: 90%;
+  height: 1rem;
+}
+
+.form textarea {
+  width: 90%;
+}
+
+
+
 }
 
 
@@ -454,3 +501,20 @@ img {
   }
 
 }
+
+/*
+#skip {
+
+  background-image: url(/img/down.svg);
+  display: block;
+  text-indent: -9999px;
+  width: 100px;
+  height: 82px;
+  background-size: 100px 82px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+    
+    
+
+} */
