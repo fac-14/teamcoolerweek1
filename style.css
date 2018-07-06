@@ -1,6 +1,7 @@
 /* GENERAL STYLING */
 
-*, html {
+*,
+html {
   font-family: "Roboto", sans-serif;
 }
 
@@ -23,9 +24,6 @@ p {
 
 li {
   font-size: 1.5rem;
-}
-
-.container {
 }
 
 .content {
@@ -85,7 +83,7 @@ nav a:focus {
 }
 
 #section1-home header h2 {
-  font-family: 'Kalam', cursive;
+  font-family: "Kalam", cursive;
   text-align: right;
   padding-top: 5%;
   color: hsl(0, 0%, 32%);
@@ -94,7 +92,7 @@ nav a:focus {
 #section1-home {
   height: 90vh;
   background: /*linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),*/
-    url("./img/hero-jess-watters-unsplash.jpg");
+  url("./img/hero-jess-watters-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center bottom;
@@ -117,24 +115,23 @@ nav a:focus {
 }
 
 #right {
-    grid-column-start: 2;
-    display: flex;
-    align-items: center;
-    background-color: hsl(0, 0%, 32%);
+  grid-column-start: 2;
+  display: flex;
+  align-items: center;
+  background-color: hsl(0, 0%, 32%);
 }
 
 #logo {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 #section3-team {
   height: 90vh;
-  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)),
-    url("./img/teamphoto.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)), url("./img/teamphoto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,6 +160,8 @@ nav a:focus {
   color: white;
 }
 
+/* Image Text Styling */
+
 #armand-text {
   background-color: hsl(304, 45%, 27%);
 }
@@ -179,23 +178,18 @@ nav a:focus {
   background-color: hsl(0, 100%, 22%);
 }
 
-
 #section6-contact {
-    height: 110vh;
-    display: grid;
-    grid-template-rows: 0.2fr 1fr 0.2fr;
-    grid-template-columns: 0.3fr 1fr 0.3fr;
-    background:
-    linear-gradient(
-        rgba(255, 0, 0, 0.45),
-        rgba(150, 45, 150, 0.45)
-    ),
-    url("./img/contactmap.jpg");
+  height: 110vh;
+  display: grid;
+  grid-template-rows: 0.2fr 1fr 0.2fr;
+  grid-template-columns: 0.3fr 1fr 0.3fr;
+  background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(150, 45, 150, 0.45)), url("./img/contactmap.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 /* this is only in here to reduce size of team images to make easier to sort grid layout */
+
 img {
   width: 100%;
   height: 100%;
@@ -222,7 +216,7 @@ img {
   border-radius: 2%;
   display: grid;
   grid-template-columns: 0.2fr 1fr 0.2fr;
-  grid-template-rows: .7fr .7fr .7fr .7fr 1.9fr 1fr 5%;
+  grid-template-rows: 0.7fr 0.7fr 0.7fr 0.7fr 1.9fr 1fr 5%;
   grid-gap: 10px;
   margin: auto;
   color: white;
@@ -248,7 +242,7 @@ img {
   border-radius: 10px;
   border: 2px hsl(43, 100%, 52%) solid;
   height: 1.5rem;
-  padding: .9rem;
+  padding: 0.9rem;
 }
 
 .form textarea {
@@ -256,13 +250,12 @@ img {
   border-radius: 10px;
   border: 2px hsl(43, 100%, 52%) solid;
   height: 5rem;
-  padding: .9rem;
+  padding: 0.9rem;
 }
 
 .form label {
   display: block;
 }
-
 
 #fullname {
   grid-row-start: 2;
@@ -311,10 +304,13 @@ img {
   background-position: center center;
 }
 
-#nathalie-text, #joe-text{
+#nathalie-text,
+#joe-text {
   grid-column-start: 1;
   grid-row-start: 2;
 }
+
+/*Member Photos*/
 
 #armand {
   background-image: url("img/armand.jpg");
@@ -333,33 +329,28 @@ img {
   background-image: url("img/joe.jpg");
 }
 
-
-
 /* Semantics */
 
 .semantic-hide {
-    display: none;
+  display: none;
 }
 
 /* MOBILE STYLES */
 
-@media(max-width: 780px){
+@media (max-width: 780px) {
   #section1-home header h1 {
     font-size: 3rem;
   }
-
   #section1-home header h2 {
     line-height: 1.1;
     text-align: left;
   }
-
 }
 
-@media(max-width: 767px){
+@media (max-width: 767px) {
   .content {
     width: 100%;
   }
-
   nav {
     display: flex;
     position: fixed;
@@ -369,105 +360,83 @@ img {
     width: 100vw;
     z-index: 2;
   }
-
   nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2%;
   }
-
   nav li {
     margin: 10px;
   }
-
   nav a {
     text-decoration: none;
     color: white;
   }
-
   nav a:hover {
     border-bottom: 4px gray solid;
   }
-
   nav a:focus {
     border-bottom: 4px gray solid;
   }
-
   #section2-about {
     height: auto;
     display: block;
   }
-
   #right {
     display: none;
   }
-
   #left {
     height: 90vh;
   }
-
   #section4-profiles1 {
     height: auto;
   }
-
   #section5-profiles2 {
     height: auto;
   }
-
   .quarters {
     height: 100%;
     width: 100%;
     display: block;
     /*overflow: hidden; */
   }
-
-  #armand {
-    background-image: url("img/armand.jpg");
+  /* Individual Member Photos Resized */
+  .members {
     width: 100%;
     height: 30vh;
   }
-
+  #armand {
+    background-image: url("img/armand.jpg");
+  }
   #nathalie {
     background-image: url("img/nathalie.jpg");
     grid-column-start: 2;
-    width: 100%;
-    height: 30vh;
   }
-
   #kate {
     background-image: url("img/kate.jpg");
-    width: 100%;
-    height: 30vh;
   }
-
   #joe {
     background-image: url("img/joe.jpg");
-    width: 100%;
-    height: 30vh;
   }
-
 }
 
-@media(max-width: 413px){
+/* Responsive Media Queries */
 
+@media (max-width: 413px) {
   #section3-team h2 {
     font-size: 3rem;
   }
-
   #section4-profiles1 h2 {
     line-height: 1;
   }
-
   #section5-profiles2 h2 {
     line-height: 1;
   }
 }
 
-
-@media(max-width: 321px){
+@media (max-width: 321px) {
   nav a {
     font-size: 0.9rem;
   }
-
 }
