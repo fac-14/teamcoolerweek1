@@ -36,7 +36,7 @@ li {
 /* Navbar styling */
 
 nav {
-  background-color: hsl(0, 100%, 22%);
+  background-color: hsl(0, 100%, 22%); 
   color: white;
   position: fixed;
   width: 15%;
@@ -110,7 +110,7 @@ nav a:focus {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  padding: 10%;
+  padding: 0 10% 0 10%;
   background-color: hsla(27, 100%, 50%, 0.733);
   color: hsl(0, 0%, 15%);
 }
@@ -171,7 +171,7 @@ nav a:focus {
 
 
 #section6-contact {
-    height: 110vh;
+    height: auto;
     display: grid;
     grid-template-rows: 0.2fr 1fr 0.2fr;
     grid-template-columns: 0.2fr 1fr 0.2fr;
@@ -364,6 +364,7 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+
   }
 
   nav li {
@@ -499,6 +500,23 @@ img {
 @media(max-width: 321px){
   nav a {
     font-size: 0.9rem;
+  }
+
+}
+
+@media(max-height: 412px){
+  
+  nav ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  #armand, #nathalie, #kate, #joe {
+    height: 90vh;
+  }
+  
+  #section2-about, #section4-profiles1, #section5-profiles2, #section6-contact {
+    height: auto;
   }
 
 }
