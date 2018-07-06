@@ -8,9 +8,13 @@
     <title>KANJ Design</title>
     <link rel="stylesheet" href="reset.css" type="text/css">
     <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,900,900i|Kalam" rel="stylesheet">
+=======
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,700,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
     <link rel="icon" href="/img/logo-icon.png">
+
 </head>
 
 <body>
@@ -70,17 +74,16 @@
                 <h2 class="semantic-hide">Team Photos </h2>
                 <article class="background-image members" id="armand">
                     <h2 class="semantic-hide">Armand Photo</h2>
-                <!-- <img src="img/armand.jpg" alt="charming-man"> -->
                 </article>
                 <article class="team-text" id="armand-text">
                     <h2>About Armand</h2>
                     <p>Armand is our HTML5 and Javascript expert who has built at least 3.2 websites
-                        in the past week alone.
+                        in the past week alone. He loves crying in desolate corners around Finsbury Park and 
+                        has lots of opinions about the Internet speed in Western Europe.
                     </p>
                 </article>
                 <article class="background-image members" id="nathalie">
                         <h2 class="semantic-hide">Nathalie Photo</h2>
-                       <!--  <img src="img/nathalie.jpg" alt="smiling-nat"> -->
                     </article>
                 <article class="team-text" id="nathalie-text">
                     <h2>About Nathalie</h2>
@@ -94,7 +97,6 @@
                 <h2 class="semantic-hide">Team Photos</h2>
                 <article class="background-image members" id="kate">
                     <h2 class="semantic-hide"> Kate Photo</h2>
-                  <!--   <img src="img/kate.jpg" alt="cool-kats"> -->
                 </article>
                 <article class="team-text" id="kate-text">
                     <h2>About Kate</h2>
@@ -105,7 +107,6 @@
                 </article>
                 <article class="background-image members" id="joe">
                         <h2 class="semantic-hide">Joe Photo</h2>
-                      <!--  <img src="img/joe.jpg" alt="happy-joe"> -->
                 </article>
                 <article class="team-text" id="joe-text">
                     <h2>About Joe</h2>
@@ -121,15 +122,15 @@
                     <header><h2>Contact Us</h2></header>
                     <p>
                         <label for="fullname">Full name:</label>
-                        <input type="text" id="fullname" name="fullname" placeholder="Bobson Dugnutt" required minlength="5" maxlength="100">
+                        <input type="text" id="fullname" name="fullname" placeholder="Bobson Dugnutt" minlength="5" maxlength="100" required>
                     </p>
                     <p>
                         <label for="email">Email:</label>
-                        <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" id="email" name="email" placeholder="bobson.dugnutt@baseballmogul.com" required minlength="10" maxlength="100">
+                        <input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" type="email" id="email" name="email" placeholder="bobson.dugnutt@baseballmogul.com" minlength="10" maxlength="100" required>
                     </p>
                     <p>
                         <label for="number">Phone number:</label>
-                        <input type="text" id="number" name="number" placeholder="334-555-5555" required pattern="[0-9][-]{12}">
+                        <input type="tel" id="number" name="number" placeholder="334-555-5555" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                     </p>
                     <p>
                         <label for="message">Send us a message!</label>
