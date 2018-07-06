@@ -405,30 +405,31 @@ img {
     width: 100%;
     display: block;
   }
+  
+  .members {
+    width: 100%;
+    height: 30vh;
+  }
 
   #armand {
     background-image: url("img/armand.jpg");
-    width: 100%;
-    height: 30vh;
+  
   }
 
   #nathalie {
     background-image: url("img/nathalie.jpg");
     grid-column-start: 2;
-    width: 100%;
-    height: 30vh;
+  
   }
 
   #kate {
     background-image: url("img/kate.jpg");
-    width: 100%;
-    height: 30vh;
+    
   }
 
   #joe {
     background-image: url("img/joe.jpg");
-    width: 100%;
-    height: 30vh;
+    
   }
 
   .background-image {
